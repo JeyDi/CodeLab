@@ -32,7 +32,7 @@ Some constraint:
 - `1 <= s.length <= 10^5`
 - `s[i]` is a printable ascii character
 
-### Example 1
+### Example 4.1
 
 ```python
 # input
@@ -41,7 +41,7 @@ s: list = ["h", "e", "l", "l", "o"]
 ["o", "l", "l", "e", "h"]
 ```
 
-### Example 2
+### Example 4.2
 
 ```python
 # input
@@ -50,3 +50,30 @@ s: list = ["H", "a", "n", "n", "a", "h"]
 #output
 ["h", "a", "n", "n", "a", "H"]
 ```
+
+## 5. Squares of a sorted array
+
+Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order
+
+### Example 5.1
+
+```text
+Input: nums = [-4,-1,0,3,10]
+Output: [0,1,9,16,100]
+Explanation: After squaring, the array becomes [16,1,0,9,100].
+After sorting, it becomes [0,1,9,16,100]
+```
+
+### Example 5.2
+
+```text
+Input: nums = [-7,-3,2,3,11]
+Output: [4,9,9,49,121]
+```
+
+**Constraints:**
+
+- 1 <= nums.length <= 104
+- -104 <= nums[i] <= 104
+- nums is sorted in non-decreasing order.
+
